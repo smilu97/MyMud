@@ -1,0 +1,2464 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"side",
+				"side_cnt"
+			],
+			[
+				"now_hole",
+				"now_hole_num"
+			],
+			[
+				"segment",
+				"segment_num"
+			],
+			[
+				"test_",
+				"test_segments"
+			],
+			[
+				"allow",
+				"allowColor_num"
+			],
+			[
+				"jae",
+				"jaeum_num"
+			],
+			[
+				"expl",
+				"explainationInput"
+			],
+			[
+				"getNow",
+				"getNowDinerPage〔function〕"
+			],
+			[
+				"getNowDine",
+				"getNowDinerPage"
+			],
+			[
+				"getDinerdisc",
+				"getDinerdiscountList〔function〕"
+			],
+			[
+				"getDinerdiscount",
+				"getDinerdiscountListService"
+			],
+			[
+				"customerNum",
+				"customerNumListContent"
+			],
+			[
+				"change",
+				"changePassword〔function〕"
+			],
+			[
+				"meeting",
+				"meetingExist"
+			],
+			[
+				"chat",
+				"chatRoomContainer"
+			],
+			[
+				"augment",
+				"augment_path_index"
+			],
+			[
+				"nextScene",
+				"nextSceneState〔variable〕"
+			],
+			[
+				"area_",
+				"area_dummy"
+			],
+			[
+				"purchase",
+				"purchase_authentication_key"
+			],
+			[
+				"ne",
+				"nextScene〔variable〕"
+			],
+			[
+				"cen",
+				"centerSpeech_speech"
+			],
+			[
+				"center",
+				"centerSpeech_obj"
+			],
+			[
+				"cetn",
+				"centerSpeech_speech〔variable〕"
+			],
+			[
+				"hope_sat",
+				"hope_satisfied_time"
+			],
+			[
+				"hope_satisfi",
+				"hope_satisfied_by_fb_id"
+			],
+			[
+				"Print",
+				"PrintHelloText_rect"
+			],
+			[
+				"make",
+				"MakeChasePlayerBullet〔function〕"
+			],
+			[
+				"next",
+				"nextSceneState〔variable〕"
+			],
+			[
+				"character",
+				"characterGunObject〔variable〕"
+			],
+			[
+				"charac",
+				"characterGunComponent〔variable〕"
+			],
+			[
+				"Left",
+				"LeftWall_BoxCollider〔variable〕"
+			],
+			[
+				"SCRE",
+				"SCREEN_WIDTH_HALF"
+			],
+			[
+				"test",
+				"testSpeech_speech〔variable〕"
+			],
+			[
+				"nextscene",
+				"nextSceneState"
+			],
+			[
+				"nextsce",
+				"nextSceneState〔variable〕"
+			],
+			[
+				"net",
+				"nextSceneState〔variable〕"
+			],
+			[
+				"CHAR",
+				"CHARACTER_JUMP_FORCE〔variable〕"
+			],
+			[
+				"CHARAC",
+				"CHARACTER_HORIZONTAL_SPEED〔variable〕"
+			],
+			[
+				"COLLI",
+				"COLLIDER_TYPE_CIRCLE〔variable〕"
+			],
+			[
+				"faugment",
+				"fAugmentTracker"
+			],
+			[
+				"fAugmentTracker",
+				"fAugmentTrackerIndex"
+			],
+			[
+				"string_ges",
+				"STRING_GUESSNUMBER_ANSWER\t(statement)"
+			],
+			[
+				"STRING_GUESS",
+				"STRING_GUESSNUMBER_ANSWER\t(statement)"
+			],
+			[
+				"STRING",
+				"STRING_GUESSNUMBER_ANSWER\t(statement)"
+			],
+			[
+				"STRING_GUES",
+				"STRING_GUESSNUMBER_TRY\t(statement)"
+			],
+			[
+				"push",
+				"push_back\tfunc"
+			],
+			[
+				"device",
+				"deviceNum"
+			],
+			[
+				"devie",
+				"deviceNum"
+			],
+			[
+				"p",
+				"p\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "cpp/run.cpp",
+			"settings":
+			{
+				"buffer_size": 145,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "#include \"../MainProgram.h\"\n\nMainProgram::MainProgram(int argc, char** argv)\n{\n\trunning = 0;\n\tp_nowTile = NULL;\n}\n\nMainProgram::~MainProgram()\n{\n\tif(running) {\n\t\tdelete p_nowTile;\n\t}\n}\n\nvoid MainProgram::Run(int argc, char** argv)\n{\n\t\n}",
+			"file": "cpp/MainProgram.cpp",
+			"file_size": 214,
+			"file_write_time": 131203118411756646,
+			"settings":
+			{
+				"buffer_size": 236,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cpp/PlayerObject.cpp",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cpp/Tile.cpp",
+			"settings":
+			{
+				"buffer_size": 693,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cpp/Object.cpp",
+			"settings":
+			{
+				"buffer_size": 1228,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cpp/Position.cpp",
+			"settings":
+			{
+				"buffer_size": 267,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "h/PlayerObject.h",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "h/Tile.h",
+			"settings":
+			{
+				"buffer_size": 300,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "h/Object.h",
+			"settings":
+			{
+				"buffer_size": 335,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "h/Position.h",
+			"settings":
+			{
+				"buffer_size": 212,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "h/MainProgram.h",
+			"settings":
+			{
+				"buffer_size": 208,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "#ifndef RUN_HEADER_\n#define RUN_HEADER_ 0\n\n#include <iostream>\n\nusing namespace std;\n\n#endif",
+			"file": "h/run.h",
+			"file_size": 0,
+			"file_write_time": 131203109426705226,
+			"settings":
+			{
+				"buffer_size": 92,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					""
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 126.0,
+		"last_filter": "C++",
+		"selected_items":
+		[
+			[
+				"C++",
+				"Set Syntax: C++"
+			],
+			[
+				"python",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"C compile",
+				"Build With: C compile"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"BracketHighlighter: Toggle String Bracket Escape Mode"
+			],
+			[
+				"python run",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"sublime",
+				"SublimeREPL: Python"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"node",
+				"Nodejs::Run::Current File"
+			],
+			[
+				"node ",
+				"Nodejs::Run::Current File"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ajva",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"Package Control remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"set syn ejs",
+				"Set Syntax: EJS (<% and %>)"
+			],
+			[
+				"ejs",
+				"Snippet: <%(=) 'insert ejs tags' %>"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"markmon",
+				"Markmon launch"
+			],
+			[
+				"markmkon",
+				"Preferences: Markmon Key Bindings – Default"
+			],
+			[
+				"preview",
+				"Markdown HTML Preview"
+			],
+			[
+				"nodejs",
+				"Nodejs::Run::Current File"
+			],
+			[
+				"syntax C",
+				"Set Syntax: C++"
+			],
+			[
+				"jsp",
+				"Set Syntax: Java Server Page (JSP)"
+			],
+			[
+				"set syntax: ",
+				"Set Syntax: SQL"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"set syntax python",
+				"Set Syntax: Python"
+			],
+			[
+				"git commit",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"git commit ",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"pdb",
+				"SublimeREPL: Python - PDB current file"
+			],
+			[
+				"PYTHON",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pyt",
+				"SublimeREPL: Python"
+			],
+			[
+				"shell",
+				"SublimeREPL: Shell"
+			],
+			[
+				"run console",
+				"SublimeREPL: Python - Sublime Text Console"
+			],
+			[
+				"pytho",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pyth",
+				"Build With: Python"
+			],
+			[
+				"remove package",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"python import",
+				"Python Refactor: Organize Imports"
+			],
+			[
+				"build",
+				"Build With: C++11"
+			],
+			[
+				"c++",
+				"Build With: C++ Single File - Run"
+			],
+			[
+				"pytohn",
+				"Python Refactor: Rename"
+			],
+			[
+				"sublimerepl python",
+				"SublimeREPL: Python"
+			],
+			[
+				"pythin",
+				"Set Syntax: PythonImproved"
+			],
+			[
+				"php",
+				"SublimeREPL: PHP"
+			],
+			[
+				"ruby",
+				"SublimeREPL: Ruby"
+			],
+			[
+				"python ru",
+				"SublimeREPL: Python - RUN current file"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Repo/mymud",
+		"/C/Repo/mymud/cpp",
+		"/C/Repo/mymud/h"
+	],
+	"file_history":
+	[
+		"/C/Repo/mymud/run.cpp",
+		"/C/Users/smilu/AppData/Roaming/Sublime Text 3/Packages/User/C++ compile.sublime-build",
+		"/C/Repo/codemonster/tmp.cpp",
+		"/C/Repo/codemonster/2.txt",
+		"/C/Repo/codemonster/1/1.cpp",
+		"/C/Repo/codemonster/2.cpp",
+		"/C/Repo/codemonster/2/input_small.txt",
+		"/C/Repo/codemonster/2/2.cpp",
+		"/C/Repo/codemonster/1.cpp",
+		"/C/Repo/algo/12779_2.cpp",
+		"/C/Repo/algo/12779.cpp",
+		"/D/Repos/CMove/character.cpp",
+		"/D/Repos/CMove/character.h",
+		"/D/Repos/CMove/floor.cpp",
+		"/D/Repos/CMove/cmove.cpp",
+		"/D/Repos/CMove/util.cpp",
+		"/D/Repos/CMove/util.h",
+		"/D/Repos/CMove/constants.h",
+		"/D/Repos/CMove/Makefile",
+		"/D/Repos/CMove/floor.h",
+		"/D/Frog/word/160926.txt",
+		"/C/Repo/algo/tmp.cpp",
+		"/C/Users/smilu/AppData/Roaming/Sublime Text 3/Packages/User/C compile.sublime-build",
+		"/C/Users/smilu/AppData/Roaming/Sublime Text 3/Packages/User/CppBuilder.sublime-settings",
+		"/C/Repos/algo/11727.cpp",
+		"/C/Repos/algo/tmp.py",
+		"/C/Repos/algo/11403.cpp",
+		"/C/Repos/algo/7507.cpp",
+		"/C/Repos/algo/1463.cpp",
+		"/C/Repos/algo/1149.cpp",
+		"/C/Repos/hyuCreative/guessthenumber",
+		"/C/Repos/hyuCreative/homework7.cpp",
+		"/C/Repos/youngFix/11493.cpp",
+		"/C/Repos/youngFix/app.js",
+		"/C/Repos/youngFix/config/secrets.js",
+		"/C/Repos/youngFix/package.json",
+		"/C/Repos/youngFix/README.md",
+		"/C/Repos/algo/clap.cp",
+		"/C/Repos/algo/11401.cp",
+		"/C/Repos/algo/1260.cp",
+		"/C/Repos/algo/1929",
+		"/C/Repos/shinyeProblems/2.cpp",
+		"/C/Repos/shinyeProblems/1.cpp",
+		"/C/Repos/algo/fibocount.cpp",
+		"/C/Repos/algo/quicksort.cpp",
+		"/C/Repos/algo/1920.cpp",
+		"/C/Repos/tmp.cpp",
+		"/C/Repos/tmp.py",
+		"/C/Frog/bookking/build.gradle",
+		"/C/Users/Yeong Jin/Downloads/sqldump.sql",
+		"/C/Frog/bookking/src/main/resources/templates/detail.mobile.vm",
+		"/C/Frog/bookking/schema.sql",
+		"/C/Frog/publish/m_v4 - transformed/login.mobile.html",
+		"/C/Frog/publish/m_v4 - transformed/join.mobile.html",
+		"/C/Frog/publish/m_v4 - transformed/main.mobile.html",
+		"/C/Frog/publish/m_v4 - transformed/detail.mobile.html",
+		"/C/Frog/publish/m_v4 - transformed/coupon.mobile.html",
+		"/C/Frog/publish/m_v1/css/style.css",
+		"/C/Frog/publish/m_v1/js/content.js",
+		"/C/Users/Yeong Jin/Downloads/localdump.sql",
+		"/C/Users/Yeong Jin/Desktop/bookking_product_info.sql",
+		"/C/Users/Yeong Jin/Desktop/bookking_restaurant_info.sql",
+		"/C/Frog/frogAngular/app/main.ts",
+		"/C/Frog/frogAngular/app/sidebar/sidebar.component.html",
+		"/C/Frog/frogAngular/npm-debug.log",
+		"/C/Frog/bookking/.gitignore",
+		"/C/Frog/bookking/src/main/resources/schema.sql",
+		"/C/Repos/nodejs-aaa/schema.sql",
+		"/C/Users/Yeong Jin/Documents/workspace-sts-3.7.3.RELEASE/bookking/build.gradle",
+		"/H/home/smilu/flask_socc/templates/Day.py",
+		"/H/home/smilu/flask_socc/ChatRoom.py",
+		"/C/Repos/g_frog/search.md",
+		"/C/Users/Yeong Jin/AppData/Local/Temp/_AZTMP3_/build.gradle",
+		"/C/Repos/g_frog/g_frog/.project",
+		"/C/Repos/g_frog/alarm.md",
+		"/C/Users/Yeong Jin/AppData/Local/Temp/_AZTMP1_/common.cpp",
+		"/C/Users/Yeong Jin/AppData/Local/Temp/_AZTMP0_/KickList.cpp",
+		"/C/Repos/frog_node/search.md",
+		"/C/Repos/pycrawler/crawl.py",
+		"/C/Repos/g_frog/g_frog2/src/main/java/net/frog/dao/diners/DinersDAO.java",
+		"/C/Repos/g_frog/g_frog2/src/main/java/net/frog/services/diners/DinersServiceImpl.java",
+		"/C/Repos/g_frog/g_frog2/src/main/java/net/frog/vo/DinersVO.java",
+		"/C/Repos/g_frog/g_frog2/src/main/webapp/WEB-INF/jsp/view/dinersSearch.jsp",
+		"/C/Repos/g_frog/g_frog2/src/main/resources/net/frog/dao/Diners_DAO.xml",
+		"/C/Repos/g_frog/g_frog2/src/main/java/net/frog/services/diners/DinersService.java",
+		"/C/Repos/g_frog/g_frog2/src/main/java/net/frog/controller/DinersController.java",
+		"/C/Repos/g_frog/g_frog2/build.gradle",
+		"/C/Repos/g_frog/g_frog2/src/main/java/net/frog/controller/UsersController.java",
+		"/H/home/smilu/python/foodParser.py",
+		"/C/Repos/nodejs-aaa/views/uploadtester.ejs",
+		"/C/Repos/nodejs-aaa/views/postcontent.ejs",
+		"/C/Repos/nodejs-aaa/testa.js",
+		"/C/Repos/nodejs-aaa/testb.js",
+		"/C/Repos/nodejs-aaa/views/testb.js",
+		"/C/Repos/nodejs-aaa/service/postService.js",
+		"/C/Repos/nodejs-aaa/router/postRouter.js",
+		"/C/Repos/nodejs-aaa/views/postlist.ejs",
+		"/C/Repos/nodejs-aaa/views/postpage.ejs",
+		"/C/Repos/nodejs-aaa/views/header.ejs",
+		"/C/Repos/nodejs-aaa/views/signup.ejs",
+		"/C/Repos/nodejs-aaa/views/signin.ejs",
+		"/C/Repos/nodejs-aaa/views/postmodify.ejs",
+		"/C/Users/Yeong Jin/Documents/Sublime/testing.cpp",
+		"/C/Repos/nodejs-aaa/views/board.ejs",
+		"/C/Repos/nodejs-aaa/views/create_postpage.ejs",
+		"/C/Repos/g_frog/down/g_frog/src/main/java/net/frog/services/PostServiceImpl.java",
+		"/C/Repos/g_frog/down/g_frog/src/main/java/net/frog/dao/PostDAO.java",
+		"/C/Repos/nodejs-aaa/router/main.js",
+		"/C/Repos/nodejs-aaa/views/index.ejs",
+		"/C/Users/Yeong Jin/Documents/Games/Liru 1.0.0.3/Liru 1.0.0.3/Content/XML/config.xml",
+		"/C/Users/Yeong Jin/Documents/Games/Liru 1.0.0.3/Liru 1.0.0.3/Content/XML/scene/sceneList_Dinner.xml",
+		"/C/Repos/ruliweb_crawler/output.html",
+		"/C/Repos/algo/scpc/shoes.cpp",
+		"/C/Repos/algostudy/MaximumFlowWorld/pigs/smilu97.cpp",
+		"/C/Repos/algostudy/smilu97/job_assignment.cpp",
+		"/C/Repos/algo/test.exe",
+		"/C/Users/Yeong Jin/Documents/Machine/LinearRegression.py",
+		"/C/Users/Yeong Jin/Documents/Machine/LogisticRegression.py",
+		"/C/Repos/test.py",
+		"/C/Users/Yeong Jin/AppData/Roaming/Sublime Text 3/Packages/sublime-text-markmon/Default (Windows).sublime-keymap",
+		"/C/Users/Yeong Jin/AppData/Roaming/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/C/Repos/nodejs-chat/router/userAPI",
+		"/C/Repos/algo/test.cpp",
+		"/C/Users/Yeong Jin/AppData/Roaming/Sublime Text 3/Packages/Shell Turtlestein/Shell Turtlestein.sublime-settings",
+		"/C/Users/Yeong Jin/Documents/Machine/FNN_.py",
+		"/C/Program Files/Apache Software Foundation/Tomcat 7.0/webapps/ROOT/main.jsp",
+		"/C/Users/Yeong Jin/Documents/Machine/FNN.py",
+		"/C/Program Files/Apache Software Foundation/Tomcat 7.0/conf/server.xml"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"map",
+			"float",
+			"double",
+			"i",
+			"float",
+			"double",
+			"mings",
+			"sett[from]",
+			"sett",
+			"set",
+			"sett",
+			"cin",
+			" 1 \n ",
+			" 1 ",
+			"997",
+			"+",
+			"INFINITE",
+			"cin",
+			"ming",
+			"999999",
+			"int",
+			"0x0804a0a0",
+			"*",
+			"\t\n",
+			"typeNum",
+			"chartR",
+			"chartQ",
+			"getCost",
+			"mincost",
+			"last.cost",
+			"end",
+			"prevplan",
+			"arr",
+			"start",
+			"allowColors[i]",
+			"startPoint",
+			"minpoint",
+			"allower",
+			"graph",
+			"mailgun",
+			"login",
+			"mongo",
+			"done",
+			"postgres",
+			"mysql",
+			"error\\n",
+			"int",
+			"res",
+			"max_place_finder",
+			"mat",
+			"true",
+			"bool",
+			"OPE",
+			"ope",
+			"OPE",
+			"ope",
+			"OPE",
+			"adder",
+			"int i",
+			"mingraph",
+			"network",
+			"true",
+			"}\n",
+			"vector< vector<int> >",
+			"@Column",
+			"html",
+			"dinerdiscounts",
+			"@Column",
+			"explaination",
+			"endtime",
+			"<input",
+			"button",
+			"UpdateBt",
+			"\"PUT\"",
+			"PUT",
+			"btn btn-defaul",
+			")",
+			"for",
+			"<li class=\"list-group-item\"> ",
+			"</li>",
+			"explaination",
+			"isrealtime",
+			"src=\"",
+			"appendDiner",
+			"appendDiner()",
+			"dinerPage",
+			"dinerPage[nowcate1-1][nowcate2-1]",
+			"dinerPage",
+			"0",
+			"}}",
+			"dinerBox",
+			"[]",
+			"console.log",
+			"#",
+			"'송도동'",
+			"'송도동',",
+			"),",
+			"'송도동'",
+			"),",
+			"});\n",
+			"res",
+			"BlockContent",
+			"blockContent",
+			"BlockContent",
+			"blockContent",
+			"dinerBoxExample",
+			"boxinfo",
+			".",
+			"boxinfo",
+			"initStoreList",
+			"ctList",
+			"temp",
+			"src=\"",
+			"cate2",
+			"cate1",
+			"'",
+			"geturl",
+			"}",
+			"{",
+			"if(",
+			"href=\"",
+			"\t\t<div class=\"star\"><img src=\"img/ico_star.png\" alt=\"별점\" /><img src=\"img/ico_star.png\" alt=\"별점\" /><img src=\"img/ico_star.png\" alt=\"별점\" /><img src=\"img/ico_star.png\" alt=\"별점\" /><img src=\"img/ico_star_off.png\" alt=\"별점\" /></div>\t\n\t\t\t</div>\n\t\t\t<span class=\"time\">실시간</span>\n\t\t\t<span class=\"per\">30%</span>\n\t\t\t<form class=\"frm_sel\">\n\t\t\t\t<fieldset>\n\t\t\t\t\t<legend class=\"blind\">인원수 선택</legend>\n\t\t\t\t\t<select class=\"sel_cnt\" title=\"인원수 선택\">\n\t\t\t\t\t\t<option value=\"\">15 인</option>\n\t\t\t\t\t\t<option value=\"\">16 인</option>\n\t\t\t\t\t\t<option value=\"\">17 인</option>\n\t\t\t\t\t\t<option value=\"\">18 인</option>\n\t\t\t\t\t\t<option value=\"\">19 인</option>\n\t\t\t\t\t\t<option value=\"\">20 인</option>\n\t\t\t\t\t</select> \n\t\t\t\t</fieldset>\n\t\t\t</form>\n\t\t\t<a href=\"#\" class=\"btn_reserve\">지금 예약하기</a>\n\t\t</div>\n\t</div>\n</li>",
+			"explaination",
+			"id=\"",
+			"explaination",
+			"id",
+			"=\"\"",
+			"explaination"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "cpp/run.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								145
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										144,
+										145
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										53,
+										54
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"is_init_dirty_state": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "cpp/MainProgram.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								234,
+								234
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										235,
+										236
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										231,
+										232
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "cpp/PlayerObject.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "cpp/Tile.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 693,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								546,
+								546
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 273.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "cpp/Object.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1188,
+								1188
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1202,
+										1203
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1139,
+										1140
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1339.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "cpp/Position.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										266,
+										267
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										241,
+										242
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "h/PlayerObject.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "h/Tile.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								290,
+								290
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										291,
+										292
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										58,
+										59
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "h/Object.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								325,
+								325
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										326,
+										327
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										105,
+										106
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "h/Position.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 212,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								202,
+								202
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										203,
+										204
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										71,
+										72
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "h/MainProgram.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								198
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										199,
+										200
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										79,
+										80
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "h/run.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 92,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								85,
+								85
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										86,
+										92
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/hash.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										7
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 74.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CppBuilder":
+	{
+		"height": 32.0
+	},
+	"output.exec":
+	{
+		"height": 96.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 170.0
+	},
+	"output.nodejs":
+	{
+		"height": 253.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 92.0
+	},
+	"pinned_build_system": "Packages/User/C++ compile.sublime-build",
+	"project": "sublime_project.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"tmp",
+				"tmp.cpp"
+			],
+			[
+				"11493",
+				"11493.cpp"
+			],
+			[
+				"dinersvo",
+				"main\\java\\net\\frog\\vo\\DinersVO.java"
+			],
+			[
+				"howto",
+				"C:\\Repos\\howToPygame\\base.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

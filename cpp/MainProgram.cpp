@@ -1,4 +1,4 @@
-#include "../MainProgram.h"
+#include "MainProgram.h"
 
 MainProgram::MainProgram(int argc, char** argv)
 {
@@ -8,7 +8,9 @@ MainProgram::MainProgram(int argc, char** argv)
 
 MainProgram::~MainProgram()
 {
-
+	if(running) {
+		delete p_nowTile;
+	}
 }
 
 void MainProgram::Run(int argc, char** argv)
