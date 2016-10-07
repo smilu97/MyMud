@@ -15,7 +15,7 @@ public:
 	int get_MP();
 	int set_HP(int val);
 	int set_MP(int val);
-}
+};
 
 
 #endif

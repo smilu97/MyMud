@@ -20,9 +20,9 @@ int Object::MoveRight()
 {
 	int x = p_position->get_x();
 	int y = p_position->get_y();
-	if(p_onTile->checkMovable(x+1,y)) {
-		p_position->set_x(x+1);
-		p_position->set_y(y);
+	if(p_onTile->checkMovable(x,y+1)) {
+		p_position->set_x(x);
+		p_position->set_y(y+1);
 		return 1;
 	}
 	else {
@@ -34,9 +34,9 @@ int Object::MoveLeft()
 {
 	int x = p_position->get_x();
 	int y = p_position->get_y();
-	if(p_onTile->checkMovable(x-1,y)) {
-		p_position->set_x(x-1);
-		p_position->set_y(y);
+	if(p_onTile->checkMovable(x,y-1)) {
+		p_position->set_x(x);
+		p_position->set_y(y-1);
 		return 1;
 	}
 	else {
@@ -48,9 +48,9 @@ int Object::MoveDown()
 {
 	int x = p_position->get_x();
 	int y = p_position->get_y();
-	if(p_onTile->checkMovable(x,y+1)) {
-		p_position->set_x(x);
-		p_position->set_y(y+1);
+	if(p_onTile->checkMovable(x+1,y)) {
+		p_position->set_x(x+1);
+		p_position->set_y(y);
 		return 1;
 	}
 	else {
@@ -62,9 +62,9 @@ int Object::MoveUp()
 {
 	int x = p_position->get_x();
 	int y = p_position->get_y();
-	if(p_onTile->checkMovable(x,y-1)) {
-		p_position->set_x(x);
-		p_position->set_y(y-1);
+	if(p_onTile->checkMovable(x-1,y)) {
+		p_position->set_x(x-1);
+		p_position->set_y(y);
 		return 1;
 	}
 	else {

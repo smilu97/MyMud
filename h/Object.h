@@ -18,6 +18,6 @@ public:
 	int MoveUp();
 	int MoveDown();
 	int Teleport(int x, int y);
-}
+};
 
 #endif

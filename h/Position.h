@@ -13,6 +13,6 @@ public:
 	int get_y();
 	int set_x(int val);
 	int set_y(int val);
-}
+};
 
 #endif
